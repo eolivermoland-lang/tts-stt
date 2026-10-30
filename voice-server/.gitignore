@@ -1,0 +1,8 @@
+.venv/
+.secret
+.tunnel-url
+tunnel.log
+install.log
+test.log
+*.wav
+__pycache__/

@@ -1,0 +1,10 @@
+name = "robot-dog-api"
+main = "src/index.js"
+compatibility_date = "2026-10-01"
+
+[ai]
+binding = "AI"
+
+[vars]
+# Oppdater denne etter at cloudflared-tunnelen er startet.
+TTS_URL = "https://delivering-modes-valid-broken.trycloudflare.com"

@@ -1,0 +1,36 @@
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+nest_venv/
+
+# Node
+node_modules/
+.wrangler/
+npm-install.log
+
+# Hemmeligheter og lokal konfigurasjon
+.env
+.env.*
+!.env.example
+.robot_token
+.secret
+.dev.vars
+.tunnel-url
+settings.json
+nest_settings.json
+
+# Modeller og generert lyd (store filer)
+*.wav
+*.mp3
+voice-server/models/
+voice-server/nest_lyd/
+robot-dog-chat/nest_lyd/
+
+# Logger og backup
+*.log
+*.bak

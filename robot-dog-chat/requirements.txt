@@ -1,0 +1,7 @@
+numpy>=2.0
+sounddevice>=0.5
+PySide6>=6.10
+
+pychromecast
+soundfile
+requests

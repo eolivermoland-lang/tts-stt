@@ -1,0 +1,7 @@
+node_modules/
+.robot_token
+.dev.vars
+dist/
+npm-install.log
+worker_svar.wav
+*.wav
