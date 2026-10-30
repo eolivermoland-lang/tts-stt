@@ -59,3 +59,20 @@ Disse filene er bevisst ikke i repoet:
 
 Lag dem lokalt med scriptene i hver mappe (`setup-secrets.sh`,
 `record_ref.sh`, `setup.sh`).
+
+---
+
+## Midlertidige hemmeligheter
+
+Dette repoet er offentlig bare for aa faa filene over paa Raspberry Pi.
+Slett repoet eller gjor det privat etterpaa, og bytt `ROBOT_TOKEN` og `TTS_SECRET`.
+
+```dotenv
+API_URL=https://robot-dog-api.eolivermoland.workers.dev
+ROBOT_TOKEN=0f84ebdfeb34b7d29e5641756269b9efad045bd72c17fb5af51cf61e72f5d40f
+TTS_URL=https://delivering-modes-valid-broken.trycloudflare.com
+TTS_SECRET=ab9289c78319a194e5032df98d3d53e74f4026746e9d1870886e0f45a9b70038
+```
+
+Pa Pi-en kan du lage `robot-dog-chat/.env` med disse verdiene, eller kopiere
+fila direkte fra Mac-en.
